@@ -1,4 +1,4 @@
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -141,3 +141,85 @@ button[disabled] {
   width: 100%;
 }
 
+.previousPasswords {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+ */
+
+ body{
+   background-color: darkgray;
+   color: white;
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .container {
+   background-color: pink;
+   padding: 3rem;
+   border-radius: 1rem;
+   border: 3px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+
+ .form {
+   display: grid;
+   grid-template-columns: auto auto;
+   row-gap: 1rem;
+   column-gap: 3rem;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .title {
+   margin: 0;
+   text-align: center;
+ }
+
+ label: {
+   font-weight: bold;
+ }
+
+ .charactrAmountContainer {
+   display: flex;
+   align-items: center;
+ }
+
+ .numberInput {
+   width: 2rem;
+ }
+
+ .passwordDisplay {
+   background-color: white;
+   color: black;
+   padding: 1rem;
+   border: 1px solid darkgray;
+   height: 2rem;
+   width: 350px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   word-break: break-all;
+   border-radius: .5rem;
+ }
+
+ .btn {
+   grid-column: span 2;
+   background-color: transparent;
+   border: 2px solid white;
+   color: white;
+   padding: 0.5 rem 1rem;
+   font-weight: bold;
+   cursor: pointer;
+   border-radius: 1rem;
+ }
+
+ .btn:hover {
+   background-color: #ffffff33;
+   }
